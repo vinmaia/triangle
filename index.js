@@ -18,4 +18,6 @@ Equilátero, Isóceles ou Escaleno.`);
         console.log("Isóceles, pois apenas dois lados são iguais! O lado 1 e o lado 3!");
     } else if(lado2 === lado3 && lado2 !== lado1) {
         console.log("Isóceles, pode ver que só dois lados são iguais, o lado 2 e o lado 3!");
+    } else if (lado1 < 0 || lado2 < 0 || lado3 < 0) {
+        console.log("Isso não é um triângulo.");
     }
